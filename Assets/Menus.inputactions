@@ -1,0 +1,46 @@
+{
+    "version": 1,
+    "name": "Menus",
+    "maps": [
+        {
+            "name": "menu",
+            "id": "9451c5fa-9f57-46a6-bc01-75e867fcb3b7",
+            "actions": [
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "fe71f9fd-c744-4b55-afd0-38f3da4f8e08",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a6eef9fd-ba94-4c13-a0fc-924aaf55fd41",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fcfc0f84-f6b2-487b-901a-38b6679cdd04",
+                    "path": "<DualShockGamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
