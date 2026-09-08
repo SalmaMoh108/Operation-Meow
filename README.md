@@ -45,7 +45,7 @@ Kidnapped, imprisoned and forced to be a cat, Jason is trapped in a bizarre faci
 **Developed by:**
 * **Salma Esmat:** Programming, Game Mechanics, Level Design, Character Sprite and Animations
 * **Donia Fawzy:** UI Art, Home Screen Art, Game Logo, Music
-* 
+  
  **Support the project:** [Ko-fi](https://ko-fi.com/jesterstudio)
  
 **Special Thanks**
