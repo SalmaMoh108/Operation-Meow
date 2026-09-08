@@ -65,7 +65,7 @@ public class PlayerMovement : MonoBehaviour
     {   //first jump
         if(isGrounded&&isStanding)
         {
-            rb.AddForce(Vector2.up*jumpForce,ForceMode2D.Impulse);
+            rb.AddForce(new Vector2(rb.linearVelocity.x,jumpForce),ForceMode2D.Impulse);
             isGrounded=false;
         }
 
@@ -75,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
             if (GameManager.instance != null && GameManager.instance.doubleJump)
             {
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f); //reset vertical velocity before the second jump
-                rb.AddForce(Vector2.up*jumpForce,ForceMode2D.Impulse);
+                rb.AddForce(new Vector2(rb.linearVelocity.x,jumpForce),ForceMode2D.Impulse);
                 doubleJumped=true;
             }
         }
