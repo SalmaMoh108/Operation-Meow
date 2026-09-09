@@ -51,3 +51,12 @@ Kidnapped, imprisoned and forced to be a cat, Jason is trapped in a bizarre faci
 **Special Thanks**
 * **@David G** on itch for the Dungeon Tilemap
 * **@BimLab** on itch for the patrol cat
+
+## Portfolio & Review Notice
+This repository is public strictly for portfolio demonstration and recruitment review. 
+All rights to the source code, game design, and assets are reserved. 
+
+If you are evaluating this project for employment, you are welcome to inspect, 
+fork, and compile the code locally for testing purposes. Redistribution, 
+commercial use, or asset extraction is prohibited.
+
